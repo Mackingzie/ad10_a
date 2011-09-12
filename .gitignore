@@ -1,0 +1,18 @@
+# Common Filesystem Garbage
+.DS_Store
+.classpath
+.settings
+.project
+.buildpath
+*.tmproj
+*.tmproject
+tmtags
+*~
+Thumbs.db
+Desktop.ini
+nbproject
+
+# Project Specific Ignores
+config/config.php
+application/config/database.php
+
