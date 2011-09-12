@@ -12,5 +12,8 @@ class User_model extends CI_Model {
 	}
 	
 	function insert_user(){
-		$this->simpleloginsecure->create('user@example.com', 'uS$rpass!');
+		$email = $this->input->post('email');
+		$password = $this->input->post('password');
+		$this->simpleloginsecure->create($email, $password);
+	}
 }
