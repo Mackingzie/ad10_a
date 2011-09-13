@@ -1,6 +1,6 @@
 		<div>
 				{{#message}}
-				<div id="message">{{text}}</div>
+				<div id="message"><p>{{text}}</p></div>
 				{{/message}}
 				<div id="stylized" class="myform">
 					<form id="{{form-name}}" name="{{form-name}}" method="post" action="{{form-action}}">

@@ -34,13 +34,16 @@ class User extends CI_Controller {
 		$this->form_validation->set_rules('password',
 										'Lösenord',
 										'required|min_length[5]');
-		
+		$this->form_validation->set_error_delimiters('', '');
 		if ($this->form_validation->run() == FALSE){
 			$this->mustache_spark->merge_data(
 				array(
 					'site_url' => base_url(),
+					'message' => array(
+						'text' => validation_errors()
+					),
 					'form-name' => 'form',
-					'form-action' => '/',
+					'form-action' => 'user/insert_user',
 					'form-title' => 'Register form',
 					'form-description' => 'Register here or you won\'t be able to post texts on our awsome website.',
 					'fields' => array(

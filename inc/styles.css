@@ -93,12 +93,12 @@ body
 
 }
 
-#content .intro
+#content .intro, #message
 {
 	padding: 10px 0px;
 }
 
-#content .intro p
+#content .intro p, #message p
 {
 	color: #424242;
 	font-size: 13px;
@@ -107,11 +107,17 @@ body
 	padding: 5px;
 }
 
+#message p
+{
+	color: #000;
+	font-weight: bold;
+	background: #FDC68A;
+}
+
 #content .intro p a
 {
 	color: #454444;
 	text-decoration: none;
-
 	font-weight: bold;
 }
 
