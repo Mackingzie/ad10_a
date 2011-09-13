@@ -2,6 +2,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>YAB</title>
+		<base href="{{site_url}}" />
 		<link rel="stylesheet" type="text/css" href="inc/main.css" />
 		<link href="inc/screen.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href="http://fonts.googleapis.com/css?family=Anton:regular" rel="stylesheet" type="text/css" />

@@ -1,6 +1,6 @@
 		<div>
 				{{#message}}
-				<div id="success"></div>
+				<div id="message">{{text}}</div>
 				{{/message}}
 				<div id="stylized" class="myform">
 					<form id="{{form-name}}" name="{{form-name}}" method="post" action="{{form-action}}">
@@ -13,7 +13,7 @@
 						<label>
 							{{label}}<span class="small">{{description}}</span>
 						</label>
-						<input type="{{type}}" name="{{name}}" id="{{name}}" />
+						<input type="{{type}}" name="{{name}}" id="{{name}}" {{#value}}value="{{value}}"{{/value}} />
 						{{/input}}
 
 						{{/fields}}
