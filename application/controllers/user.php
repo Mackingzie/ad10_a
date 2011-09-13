@@ -33,8 +33,9 @@ class User extends CI_Controller {
 										'required');
 		$this->form_validation->set_rules('password',
 										'Lösenord',
-										'required|min_length[5]');
+										'required|min_length[6]');
 		$this->form_validation->set_error_delimiters('', '');
+
 		if ($this->form_validation->run() == FALSE){
 			$this->mustache_spark->merge_data(
 				array(
@@ -87,7 +88,7 @@ class User extends CI_Controller {
 		$this->mustache_spark->render();
 	}
 
-	public function thanks_for_posting(){
+	public function thanks_for_creating_account(){
 		echo "Tack för att du skapat ett konto!";
 	}
 }
