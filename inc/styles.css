@@ -1,0 +1,266 @@
+body
+{
+	/*background: url('backgroundtile.png') fixed top;*/
+	background: url('bg.png') fixed top;
+	text-shadow: 1px 1px 1px #999;
+/*
+	font-family: helvetica, arial, sans-serif;
+*/
+	font-family: 'Anonymous Pro', helvetica, arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: 0.011em;
+	word-spacing: 0em;
+	line-height: 1.2;
+}
+
+.margin
+{
+	margin-bottom: 10px;
+}
+
+#container
+{
+	width: 925px;
+	margin: 0 auto;
+	height: auto;
+	padding-top: 36px;
+}
+
+#head
+{
+	width: 800px;
+	margin: 0 auto;
+	height: auto;
+	border-top: 1px dotted #525252;
+	border-bottom: 1px dotted #525252;
+
+}
+
+#head .logo
+{
+	height: 40px;
+	width: 260px;
+/*
+	padding-left: 15px;
+*/
+/*
+	background: url('yab.png');
+*/
+	display: block;
+	margin: 20px 0px;
+	float: left;
+	color: #454444;
+	font-family: 'Anton', serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: 0.029em;
+	word-spacing: -0.041em;
+	font-variant: small-caps;
+	line-height: 40px;
+}
+
+#head .nav
+{
+	color: #454444;
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+	margin-top: 33px;
+}
+
+#head .nav a
+{
+	color: #454444;
+	text-decoration: none;
+	margin-left: 25px;
+	text-transform: uppercase
+}
+
+#head .nav a:hover
+{
+	color: #379BFF;
+}
+
+#content
+{
+	width: 800px;
+	margin: 25px auto;
+	height: auto;
+}
+
+
+#content p
+{
+	font-size: 14px;
+	color: #424242;
+	line-height: 25px;
+	margin-bottom: 20px;
+
+}
+
+#content .intro
+{
+	padding: 10px 0px;
+}
+
+#content .intro p
+{
+	color: #424242;
+	font-size: 13px;
+	line-height: 19px;
+	background: #eee;
+	padding: 5px;
+}
+
+#content .intro p a
+{
+	color: #454444;
+	text-decoration: none;
+
+	font-weight: bold;
+}
+
+#content .intro p a:hover
+{
+	text-decoration: underline;
+}
+
+#content .post
+{
+	width: 800px;
+	border-bottom: 1px dotted #525252;
+	padding: 0px 0px 20px 0px;
+}
+
+#content .post p a
+{
+	background: #e2e2e2;
+	color: #424242;
+	text-decoration: none;
+}
+
+#content .post p a:hover
+{
+	text-decoration: underline;
+}
+
+#content .post .postheader
+{
+	background: transparent url('postheader.png');
+	width: 464px;
+	height: 65px;
+	color: #fff;
+}
+
+#content .post .postheader h2
+{
+	display: block;
+	margin-left: 60px;
+	#padding: 10px 0;
+	line-height: 40px;
+}
+
+#content .post .date
+{
+	float: left;
+	width: 55px;
+	text-align: center;
+	padding-top: 7px;
+}
+
+#content .post .date .year
+{
+	font-size: 16px;
+	display: block;
+	font-weight: bold;
+}
+
+#content .post .date .monthday
+{
+	font-size: 10px;
+}
+
+.graphimg
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* */
+
+/* ----------- My Form ----------- */
+.myform{
+	margin:0 auto;
+	padding:14px;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+	background:#ebf4fb;
+}
+#stylized form {
+	width:400px;
+}
+#stylized h1 {
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:8px;
+}
+#stylized p{
+	font-size:11px;
+	color:#666666;
+	margin-bottom:20px;
+	border-bottom:solid 1px #b7ddf2;
+	padding-bottom:10px;
+}
+#stylized label{
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:140px;
+	float:left;
+}
+#stylized .small{
+	color:#666666;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width:140px;
+}
+#stylized input{
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #aacfe4;
+	width:200px;
+	margin:2px 0 20px 10px;
+}
+#stylized button{
+	clear:both;
+	margin-left:146px;
+	width:122px;
+	height:39px;
+	background:transparent url(btn.png) no-repeat;
+	border: 0;
+	text-align:center;
+	line-height:39px;
+	text-shadow: 0px 1px 1px #fff;
+	color:#666;
+	font-size:12px;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+#stylized button:hover
+{
+	text-shadow: 1px 1px 1px #666;
+	color: #fff;
+}

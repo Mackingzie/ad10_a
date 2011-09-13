@@ -15,4 +15,5 @@ nbproject
 # Project Specific Ignores
 config/config.php
 application/config/database.php
-
+.htaccess
+htaccess
